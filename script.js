@@ -63,6 +63,7 @@ function restart() {
   button.addEventListener("click", (e) => {
     cells.forEach((cell) => {
       cell.innerText = "";
+      click = 0;
       options = ["", "", "", "", "", "", "", "", ""];
       disable(false);
       statuss.innerHTML = "";
